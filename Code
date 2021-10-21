@@ -1,7 +1,0 @@
-from gpiozero import Robot
-robby = Robot(left=(7,8), right=(9,10))
-robby.forward()
-robby.forward(0.4)
-robby.right(0.4)
-robby.forward(0.4)
-robby.left(0.4)
